@@ -1,0 +1,19 @@
+.col-2.side-nav
+  .col-12
+    =image_tag("gift-patisserie-oms-logo-white.svg", height: 100)
+  %ul.vertical-nav
+    %li
+      %i.material-icons home
+      = link_to 'Home', admin_path
+    %li
+      %i.material-icons shopping_cart
+      = link_to "Item Management", admin_items_path
+    %li
+      %i.material-icons supervisor_account
+      = link_to 'User Management', user_management_path
+    %li
+      %i.material-icons assessment
+      = link_to 'Reports', admin_reports_path
+    %li
+      %i.material-icons &#xE563
+      = link_to 'Return to Website', welcome_index_path

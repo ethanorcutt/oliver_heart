@@ -1,0 +1,104 @@
+// Place all the styles related to the Admin controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.module {
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+body {
+  background-color: #f4f6f8;
+}
+
+#welcome-banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pagination {
+  color: black;
+  * {
+    padding: 5px 10px;
+  }
+  a:hover {
+    background-color: #e7e7e7;
+    text-decoration: none;
+    color: black;
+  }
+  em {
+    background-color: #308FB3;
+    color: white;
+  }
+}
+
+h3 {
+  color: #5A6D8F !important;
+}
+
+.navbar {
+  background-color: #e8e9ea;
+  border-bottom: 1px solid #ccc;
+  color: black;
+}
+
+.navbar-menu {
+  li {
+    display: inline-block;
+    list-style: none !important;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.material-icons {
+  font-size: 1.2rem !important;
+  vertical-align: sub;
+}
+
+#availability-fixer {
+  margin-right: 36px;
+}
+
+.side-nav {
+  background-color: #4FA7C8;
+  * {
+    color: #f7f7f7;
+  }
+  position:fixed !important;
+  height: 100%;
+  padding: 0 !important;
+  border-right: 1px solid 1B5A53;
+  box-shadow: 5px 1px 20px 0px #33333359;
+  img {
+    width: 100%;
+    height: auto;
+    color: red;
+    margin: 10px 0 10px 10px;
+  }
+  .vertical-nav {
+    list-style-type: none;
+    padding-right: 0px !important;
+    width: 100%;
+    padding-left: 5px;
+    :hover {
+      background-color: #308FB3;
+    }
+    li {
+      text-align: left;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 2rem; //border-bottom: 1px solid #ddd;
+      a:hover {
+        color: white;
+        text-decoration: none;
+      }
+      i {
+        padding-right: 2px;
+      }
+    }
+  }
+}

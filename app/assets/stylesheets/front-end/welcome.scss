@@ -1,0 +1,110 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$font: 'Crimson Text', sans-serif;
+
+/* Centered text */
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 75%;
+
+    transform: translate(-50%, -50%);
+}
+
+#centered-welcome
+{
+    top: 25%;
+}
+
+#small-image-text
+{
+    font-size: 2.1em;
+    font-weight: 300;
+
+    text-align: center;
+
+    color: white;
+}
+
+.jumbo-image
+{
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    max-height: none;
+}
+
+.small-image
+{
+    display: block;
+
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+    max-height: 350px;
+}
+
+#company-name
+{
+    font-family: $font;
+    font-size: 2.5em;
+    font-weight: 300;
+
+    text-align: center;
+}
+
+#company-name-2
+{
+    font-family: $font;
+    font-size: 2.3em;
+    font-weight: 200;
+
+    width: 100%;
+    padding-bottom: 10px;
+
+    text-align: center;
+}
+
+#company-details
+{
+    font-size: .9em;
+    font-weight: 200;
+}
+
+#text-box
+{
+    margin: 10px;
+    padding: 15px;
+
+    opacity: .8;
+    border: 1px solid black;
+    background-color: #fff;
+
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.home-text
+{
+    font-family: $font;
+
+    color: black;
+}
+
+#home-text-short
+{
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+#home-text-long
+{
+    font-size: 1.3em;
+    font-weight: 300;
+
+    padding-left: 10px;
+}

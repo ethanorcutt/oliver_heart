@@ -1,0 +1,26 @@
+.spacer
+.container
+  .row
+    .col-md-12
+      .card
+        .card-header
+          %h3
+            User Management Center
+        .table-card
+          %table.table
+            %thead
+              %tr
+                %th Name
+                %th Email
+                %th Is Admin
+                %th
+                %th
+            %tr
+            - @users.each do |user|
+              %tr
+                %td= user.lname_fname
+                %td= user.email
+                %td= user.humanize(user.admin)
+                %td= user.admin ? (link_to "Demote from Admin", toggle_admin_path(user.id), method: :delete, data: { confirm: 'Are you sure?' }) : (link_to "Promote to Admin", toggle_admin_path(user.id), method: :delete, data: { confirm: 'Are you sure?' })
+
+      = will_paginate @users

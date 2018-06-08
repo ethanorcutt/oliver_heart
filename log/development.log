@@ -1,0 +1,970 @@
+Started GET "/" for 127.0.0.1 at 2018-06-08 18:16:19 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "prototype_dev" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-06-08 18:16:20 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "prototype_dev" does not exist
+):
+  
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:699:in `rescue in connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (1.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "prototype_dev"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "prototype_test"[0m
+  [1m[35m (399.4ms)[0m  [1m[35mCREATE DATABASE "prototype_dev" ENCODING = 'unicode'[0m
+  [1m[35m (303.1ms)[0m  [1m[35mCREATE DATABASE "prototype_test" ENCODING = 'unicode'[0m
+  [1m[35m (18.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6231918976790112165)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateStates (20171007025319)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE "states" ("id" bigserial primary key, "state_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171007025319"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateCountries (20171007025433)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.7ms)[0m  [1m[35mCREATE TABLE "countries" ("id" bigserial primary key, "country_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171007025433"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateOrderStatuses (20171007025523)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (11.9ms)[0m  [1m[35mCREATE TABLE "order_statuses" ("id" bigserial primary key, "status" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171007025523"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DeviseCreateUsers (20171007031248)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (11.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "first_name" character varying, "last_name" character varying, "address" character varying, "city" character varying, "state_id" bigint, "country_id" bigint, "zip" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_606ec65343"
+FOREIGN KEY ("state_id")
+  REFERENCES "states" ("id")
+, CONSTRAINT "fk_rails_7325e2cdfa"
+FOREIGN KEY ("country_id")
+  REFERENCES "countries" ("id")
+)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_state_id" ON "users"  ("state_id")[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_country_id" ON "users"  ("country_id")[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171007031248"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateOrders (20171007032255)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.6ms)[0m  [1m[35mCREATE TABLE "orders" ("id" bigserial primary key, "total" decimal, "notes" text, "user_id" bigint, "order_status_id" bigint, "address" character varying, "city" character varying, "state_id" bigint, "country_id" bigint, "zip" integer, "stripe_key" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_f868b47f6a"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_7a22cf8b0e"
+FOREIGN KEY ("order_status_id")
+  REFERENCES "order_statuses" ("id")
+, CONSTRAINT "fk_rails_ce84ab09b6"
+FOREIGN KEY ("state_id")
+  REFERENCES "states" ("id")
+, CONSTRAINT "fk_rails_8ff9bc5459"
+FOREIGN KEY ("country_id")
+  REFERENCES "countries" ("id")
+)[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_user_id" ON "orders"  ("user_id")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_order_status_id" ON "orders"  ("order_status_id")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_state_id" ON "orders"  ("state_id")[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE  INDEX  "index_orders_on_country_id" ON "orders"  ("country_id")[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171007032255"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateItems (20171007032812)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.5ms)[0m  [1m[35mCREATE TABLE "items" ("id" bigserial primary key, "name" character varying, "description" text, "available" boolean DEFAULT 't' NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171007032812"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateOrderLines (20171007033135)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.6ms)[0m  [1m[35mCREATE TABLE "order_lines" ("id" bigserial primary key, "order_id" bigint, "item_id" bigint, "qty" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_e6c763ee60"
+FOREIGN KEY ("order_id")
+  REFERENCES "orders" ("id")
+, CONSTRAINT "fk_rails_ec7eb60fb8"
+FOREIGN KEY ("item_id")
+  REFERENCES "items" ("id")
+)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE  INDEX  "index_order_lines_on_order_id" ON "order_lines"  ("order_id")[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE  INDEX  "index_order_lines_on_item_id" ON "order_lines"  ("item_id")[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171007033135"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPriceToItem (20171010210839)
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "items" ADD "price" decimal[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171010210839"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddActiveToUsers (20171101140814)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.6ms)[0m  [1m[35mALTER TABLE "users" ADD "active" boolean[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171101140814"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPhoneToUsers (20171101140856)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "users" ADD "phone" bigint[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171101140856"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAdminToUsers (20171101204334)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.5ms)[0m  [1m[35mALTER TABLE "users" ADD "admin" boolean DEFAULT 'f'[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171101204334"]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateItemImages (20171107124336)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE "item_images" ("id" bigserial primary key, "item_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_18c95d5ce3"
+FOREIGN KEY ("item_id")
+  REFERENCES "items" ("id")
+)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE  INDEX  "index_item_images_on_item_id" ON "item_images"  ("item_id")[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171107124336"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAttachmentFileToItemImages (20171107124451)
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.8ms)[0m  [1m[35mALTER TABLE "item_images" ADD "file_file_name" character varying[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "item_images" ADD "file_content_type" character varying[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "item_images" ADD "file_file_size" integer[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "item_images" ADD "file_updated_at" timestamp[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171107124451"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateOrderLineStatuses (20171107162254)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "order_line_statuses" ("id" bigserial primary key, "status" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171107162254"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddOrderLineStatusToOrderContents (20171107162504)
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "order_lines" ADD "order_line_status_id" bigint[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE  INDEX  "index_order_lines_on_order_line_status_id" ON "order_lines"  ("order_line_status_id")[0m
+  [1m[35m (4.6ms)[0m  [1m[35mALTER TABLE "order_lines" ADD CONSTRAINT "fk_rails_434f24bb14"
+FOREIGN KEY ("order_line_status_id")
+  REFERENCES "order_line_statuses" ("id")
+[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171107162504"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAddressTwoFieldToUsers (20171109205022)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "users" ADD "address_two" character varying[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171109205022"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAddressTwoFieldToOrders (20171109205154)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "orders" ADD "address_two" character varying[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171109205154"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddDetailsToOrders (20171109205948)
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "orders" ADD "first_name" character varying[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "orders" ADD "last_name" character varying[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171109205948"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddQuantityFulfilledToOrderLine (20171113182219)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.7ms)[0m  [1m[35mALTER TABLE "order_lines" ADD "quantity_fulfilled" integer DEFAULT 0[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171113182219"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddCountryToStates (20171115224205)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "states" ADD "country_id" bigint[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_states_on_country_id" ON "states"  ("country_id")[0m
+  [1m[35m (1.7ms)[0m  [1m[35mALTER TABLE "states" ADD CONSTRAINT "fk_rails_40bd891262"
+FOREIGN KEY ("country_id")
+  REFERENCES "countries" ("id")
+[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171115224205"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DropCountryFromOrder (20171115224358)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.2ms)[0m  [1m[35mALTER TABLE "orders" DROP "country_id"[0m
+  [1m[35m (1.9ms)[0m  [1m[35mALTER TABLE "users" DROP "country_id"[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171115224358"]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-06-08 23:16:32.587991"], ["updated_at", "2018-06-08 23:16:32.587991"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6231918976790112165)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "countries" ("country_name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["country_name", "USA"], ["created_at", "2018-06-08 23:16:32.850959"], ["updated_at", "2018-06-08 23:16:32.850959"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Alabama"], ["created_at", "2018-06-08 23:16:32.888922"], ["updated_at", "2018-06-08 23:16:32.888922"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Alaska"], ["created_at", "2018-06-08 23:16:32.894143"], ["updated_at", "2018-06-08 23:16:32.894143"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Arizona"], ["created_at", "2018-06-08 23:16:32.897256"], ["updated_at", "2018-06-08 23:16:32.897256"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Arkansas"], ["created_at", "2018-06-08 23:16:32.900338"], ["updated_at", "2018-06-08 23:16:32.900338"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "California"], ["created_at", "2018-06-08 23:16:32.903255"], ["updated_at", "2018-06-08 23:16:32.903255"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Colorado"], ["created_at", "2018-06-08 23:16:32.914334"], ["updated_at", "2018-06-08 23:16:32.914334"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Connecticut"], ["created_at", "2018-06-08 23:16:32.918616"], ["updated_at", "2018-06-08 23:16:32.918616"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Delaware"], ["created_at", "2018-06-08 23:16:32.922695"], ["updated_at", "2018-06-08 23:16:32.922695"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "District of Columbia"], ["created_at", "2018-06-08 23:16:32.926933"], ["updated_at", "2018-06-08 23:16:32.926933"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (9.2ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Florida"], ["created_at", "2018-06-08 23:16:32.931011"], ["updated_at", "2018-06-08 23:16:32.931011"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Georgia"], ["created_at", "2018-06-08 23:16:32.942648"], ["updated_at", "2018-06-08 23:16:32.942648"], ["country_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Hawaii"], ["created_at", "2018-06-08 23:16:32.944932"], ["updated_at", "2018-06-08 23:16:32.944932"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Idaho"], ["created_at", "2018-06-08 23:16:32.947212"], ["updated_at", "2018-06-08 23:16:32.947212"], ["country_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Illinois"], ["created_at", "2018-06-08 23:16:32.949555"], ["updated_at", "2018-06-08 23:16:32.949555"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Indiana"], ["created_at", "2018-06-08 23:16:32.952184"], ["updated_at", "2018-06-08 23:16:32.952184"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Iowa"], ["created_at", "2018-06-08 23:16:32.954589"], ["updated_at", "2018-06-08 23:16:32.954589"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Kansas"], ["created_at", "2018-06-08 23:16:32.956952"], ["updated_at", "2018-06-08 23:16:32.956952"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Kentucky"], ["created_at", "2018-06-08 23:16:32.960288"], ["updated_at", "2018-06-08 23:16:32.960288"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Louisiana"], ["created_at", "2018-06-08 23:16:32.964523"], ["updated_at", "2018-06-08 23:16:32.964523"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Maine"], ["created_at", "2018-06-08 23:16:32.968693"], ["updated_at", "2018-06-08 23:16:32.968693"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Maryland"], ["created_at", "2018-06-08 23:16:32.972977"], ["updated_at", "2018-06-08 23:16:32.972977"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Massachusetts"], ["created_at", "2018-06-08 23:16:32.976855"], ["updated_at", "2018-06-08 23:16:32.976855"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Michigan"], ["created_at", "2018-06-08 23:16:32.980838"], ["updated_at", "2018-06-08 23:16:32.980838"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Minnesota"], ["created_at", "2018-06-08 23:16:32.984914"], ["updated_at", "2018-06-08 23:16:32.984914"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Mississippi"], ["created_at", "2018-06-08 23:16:32.988968"], ["updated_at", "2018-06-08 23:16:32.988968"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Missouri"], ["created_at", "2018-06-08 23:16:32.992349"], ["updated_at", "2018-06-08 23:16:32.992349"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Montana"], ["created_at", "2018-06-08 23:16:32.994751"], ["updated_at", "2018-06-08 23:16:32.994751"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Nebraska"], ["created_at", "2018-06-08 23:16:32.997214"], ["updated_at", "2018-06-08 23:16:32.997214"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Nevada"], ["created_at", "2018-06-08 23:16:32.999520"], ["updated_at", "2018-06-08 23:16:32.999520"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "New Hampshire"], ["created_at", "2018-06-08 23:16:33.001812"], ["updated_at", "2018-06-08 23:16:33.001812"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "New Jersey"], ["created_at", "2018-06-08 23:16:33.004098"], ["updated_at", "2018-06-08 23:16:33.004098"], ["country_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "New Mexico"], ["created_at", "2018-06-08 23:16:33.006350"], ["updated_at", "2018-06-08 23:16:33.006350"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "New York"], ["created_at", "2018-06-08 23:16:33.009257"], ["updated_at", "2018-06-08 23:16:33.009257"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "North Carolina"], ["created_at", "2018-06-08 23:16:33.013167"], ["updated_at", "2018-06-08 23:16:33.013167"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "North Dakota"], ["created_at", "2018-06-08 23:16:33.017123"], ["updated_at", "2018-06-08 23:16:33.017123"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Ohio"], ["created_at", "2018-06-08 23:16:33.021233"], ["updated_at", "2018-06-08 23:16:33.021233"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Oklahoma"], ["created_at", "2018-06-08 23:16:33.025387"], ["updated_at", "2018-06-08 23:16:33.025387"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Oregon"], ["created_at", "2018-06-08 23:16:33.029438"], ["updated_at", "2018-06-08 23:16:33.029438"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.8ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Pennsylvania"], ["created_at", "2018-06-08 23:16:33.033494"], ["updated_at", "2018-06-08 23:16:33.033494"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Rhode Island"], ["created_at", "2018-06-08 23:16:33.042816"], ["updated_at", "2018-06-08 23:16:33.042816"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "South Carolina"], ["created_at", "2018-06-08 23:16:33.045298"], ["updated_at", "2018-06-08 23:16:33.045298"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "South Dakota"], ["created_at", "2018-06-08 23:16:33.047561"], ["updated_at", "2018-06-08 23:16:33.047561"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Tennessee"], ["created_at", "2018-06-08 23:16:33.049862"], ["updated_at", "2018-06-08 23:16:33.049862"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Texas"], ["created_at", "2018-06-08 23:16:33.052131"], ["updated_at", "2018-06-08 23:16:33.052131"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Utah"], ["created_at", "2018-06-08 23:16:33.054426"], ["updated_at", "2018-06-08 23:16:33.054426"], ["country_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Vermont"], ["created_at", "2018-06-08 23:16:33.056877"], ["updated_at", "2018-06-08 23:16:33.056877"], ["country_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Virginia"], ["created_at", "2018-06-08 23:16:33.059695"], ["updated_at", "2018-06-08 23:16:33.059695"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Washington"], ["created_at", "2018-06-08 23:16:33.063571"], ["updated_at", "2018-06-08 23:16:33.063571"], ["country_id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "West Virginia"], ["created_at", "2018-06-08 23:16:33.067746"], ["updated_at", "2018-06-08 23:16:33.067746"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Wisconsin"], ["created_at", "2018-06-08 23:16:33.072029"], ["updated_at", "2018-06-08 23:16:33.072029"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "states" ("state_name", "created_at", "updated_at", "country_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["state_name", "Wyoming"], ["created_at", "2018-06-08 23:16:33.076080"], ["updated_at", "2018-06-08 23:16:33.076080"], ["country_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 1"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.101571"], ["updated_at", "2018-06-08 23:16:33.101571"], ["price", "150.0"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-14t9wol.jpg'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-iwevar.jpg'
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 1], ["created_at", "2018-06-08 23:16:33.198062"], ["updated_at", "2018-06-08 23:16:33.198062"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.154919"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 2"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.214314"], ["updated_at", "2018-06-08 23:16:33.214314"], ["price", "150.0"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-1ke3ee1.jpg'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-xhsef1.jpg'
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 2], ["created_at", "2018-06-08 23:16:33.252399"], ["updated_at", "2018-06-08 23:16:33.252399"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.221962"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 3"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.270070"], ["updated_at", "2018-06-08 23:16:33.270070"], ["price", "150.0"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-1ehdof7.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-xyhgw6.jpg'
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 3], ["created_at", "2018-06-08 23:16:33.304120"], ["updated_at", "2018-06-08 23:16:33.304120"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.277642"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 4"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.320589"], ["updated_at", "2018-06-08 23:16:33.320589"], ["price", "150.0"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-88wsr9.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-1qshkb6.jpg'
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 4], ["created_at", "2018-06-08 23:16:33.356377"], ["updated_at", "2018-06-08 23:16:33.356377"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.328758"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 5"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.378268"], ["updated_at", "2018-06-08 23:16:33.378268"], ["price", "150.0"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-131ujz8.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-5b5y2q.jpg'
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 5], ["created_at", "2018-06-08 23:16:33.408639"], ["updated_at", "2018-06-08 23:16:33.408639"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.384468"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 6"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.421151"], ["updated_at", "2018-06-08 23:16:33.421151"], ["price", "150.0"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-lpbxqa.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-1gufw65.jpg'
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 6], ["created_at", "2018-06-08 23:16:33.453536"], ["updated_at", "2018-06-08 23:16:33.453536"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.427570"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 7"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.462452"], ["updated_at", "2018-06-08 23:16:33.462452"], ["price", "150.0"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-1ti76db.jpg'
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-zi22bp.jpg'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 7], ["created_at", "2018-06-08 23:16:33.496514"], ["updated_at", "2018-06-08 23:16:33.496514"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.468487"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 8"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.503475"], ["updated_at", "2018-06-08 23:16:33.503475"], ["price", "150.0"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-5q5tkp.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-1q2bcbd.jpg'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 8], ["created_at", "2018-06-08 23:16:33.528348"], ["updated_at", "2018-06-08 23:16:33.528348"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.507097"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 9"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.539366"], ["updated_at", "2018-06-08 23:16:33.539366"], ["price", "150.0"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-17nsce3.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-14hvpss.jpg'
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 9], ["created_at", "2018-06-08 23:16:33.566980"], ["updated_at", "2018-06-08 23:16:33.566980"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.543420"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 10"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.578582"], ["updated_at", "2018-06-08 23:16:33.578582"], ["price", "150.0"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-1at3v1b.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-1gsk2ru.jpg'
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 10], ["created_at", "2018-06-08 23:16:33.605553"], ["updated_at", "2018-06-08 23:16:33.605553"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.583723"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 11"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.613623"], ["updated_at", "2018-06-08 23:16:33.613623"], ["price", "150.0"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-8xfg7j.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-17rg1wb.jpg'
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 11], ["created_at", "2018-06-08 23:16:33.639410"], ["updated_at", "2018-06-08 23:16:33.639410"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.617752"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "items" ("name", "description", "created_at", "updated_at", "price") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Basket 12"], ["description", "Test Basket"], ["created_at", "2018-06-08 23:16:33.647756"], ["updated_at", "2018-06-08 23:16:33.647756"], ["price", "150.0"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-cus0hz.jpg'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Command :: file -b --mime '/var/folders/1c/mrz_sns50rl9x_mp9yxx3m600000gn/T/540fa4a476ae082da5550e41c98130a920180608-7921-7kmaxh.jpg'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "item_images" ("item_id", "created_at", "updated_at", "file_file_name", "file_content_type", "file_file_size", "file_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["item_id", 12], ["created_at", "2018-06-08 23:16:33.675344"], ["updated_at", "2018-06-08 23:16:33.675344"], ["file_file_name", "testbasket.jpg"], ["file_content_type", "image/jpeg"], ["file_file_size", 270873], ["file_updated_at", "2018-06-08 23:16:33.651491"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "order_line_statuses" ("status", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["status", "Unfulfilled"], ["created_at", "2018-06-08 23:16:33.701344"], ["updated_at", "2018-06-08 23:16:33.701344"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "order_line_statuses" ("status", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["status", "Preparing"], ["created_at", "2018-06-08 23:16:33.704467"], ["updated_at", "2018-06-08 23:16:33.704467"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "order_line_statuses" ("status", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["status", "Fulfilled"], ["created_at", "2018-06-08 23:16:33.706778"], ["updated_at", "2018-06-08 23:16:33.706778"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "order_statuses" ("status", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["status", "Placed"], ["created_at", "2018-06-08 23:16:33.724090"], ["updated_at", "2018-06-08 23:16:33.724090"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "order_statuses" ("status", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["status", "In Progress"], ["created_at", "2018-06-08 23:16:33.727665"], ["updated_at", "2018-06-08 23:16:33.727665"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "order_statuses" ("status", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["status", "Completed"], ["created_at", "2018-06-08 23:16:33.729873"], ["updated_at", "2018-06-08 23:16:33.729873"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.5ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "admin@test.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "admin") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["email", "admin@test.com"], ["encrypted_password", "$2a$11$kFhnk9Jc296gd/XZKxm5TelxwYdFMLUWmcWaYVusJsRIWlUKM58CK"], ["first_name", "Ethan"], ["last_name", "Orcutt"], ["address", "15306 Highland Elm St"], ["city", "Houston"], ["state_id", 44], ["zip", 77433], ["created_at", "2018-06-08 23:16:33.927982"], ["updated_at", "2018-06-08 23:16:33.927982"], ["admin", "t"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.5ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user@test.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["email", "user@test.com"], ["encrypted_password", "$2a$11$nU5NRqLtoxistucQP7wczuYKMLhbj9fGkuuZEwqGEEwFNWBL8utCa"], ["first_name", "Ethan"], ["last_name", "Orcutt"], ["address", "15306 Highland Elm St"], ["city", "Houston"], ["state_id", 44], ["zip", 77433], ["created_at", "2018-06-08 23:16:34.069507"], ["updated_at", "2018-06-08 23:16:34.069507"], ["phone", 7124123476]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (1.1ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tuantonyd@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "tuantonyd@gmail.com"], ["encrypted_password", "$2a$11$/1.hscBy4kFsP/imQlfLde9g5DgX2V447yM/OcW7//OQ2yadQGyjy"], ["sign_in_count", 2], ["current_sign_in_at", "2017-11-14 05:39:26"], ["last_sign_in_at", "2017-11-10 10:13:06"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Tuan"], ["last_name", "Do"], ["address", "5000 Peace St."], ["city", "HOUSTON"], ["state_id", 44], ["zip", 77023], ["created_at", "2018-06-08 23:16:34.218323"], ["updated_at", "2018-06-08 23:16:34.218323"], ["phone", 8322024827]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.4ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "pmiller@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "pmiller@gmail.com"], ["encrypted_password", "$2a$11$c6.paLE40QeFpQ2a07tPEO3oQIiS87bzpLKurdJuWK.kwFiUh7oXe"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 11:49:03"], ["last_sign_in_at", "2017-11-14 11:49:03"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Patten"], ["last_name", "Miller"], ["address", "1146 Globe St"], ["city", "Houston"], ["state_id", 44], ["zip", 77082], ["created_at", "2018-06-08 23:16:34.354234"], ["updated_at", "2018-06-08 23:16:34.354234"], ["phone", 8329665376]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.3ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "oliver.heart.gifts@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "admin") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "oliver.heart.gifts@gmail.com"], ["encrypted_password", "$2a$11$ZOo.IACCUcTR5VSHB2dvEes0RYpE6FzC/mGeFZUO0y0yfrk1F1xMu"], ["sign_in_count", 3], ["current_sign_in_at", "2017-11-14 11:49:45"], ["last_sign_in_at", "2017-11-14 05:40:51"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Linda"], ["last_name", "Hickman"], ["address", "15306 Highland Elm St"], ["city", "Houston"], ["state_id", 44], ["zip", 77433], ["created_at", "2018-06-08 23:16:34.486109"], ["updated_at", "2018-06-08 23:16:34.486109"], ["admin", "t"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.6ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "mashalsidd@yahoo.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "mashalsidd@yahoo.com"], ["encrypted_password", "$2a$11$XlWpQogyXppZFRPEBwxGbulOLBtsVg6zt/NvQmuc1WJTIAzlXtAAS"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 11:51:45"], ["last_sign_in_at", "2017-11-14 11:51:45"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Mashal"], ["last_name", "Siddiqu"], ["address", "15547 Debs St."], ["city", "Houston"], ["state_id", 44], ["zip", 77021], ["created_at", "2018-06-08 23:16:34.618363"], ["updated_at", "2018-06-08 23:16:34.618363"], ["phone", 8321241573]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.3ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "asiansaucewin@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "asiansaucewin@gmail.com"], ["encrypted_password", "$2a$11$I97SB3ceGdVQxBLISWiROuGO.I1S.O0TPrM.5iCee6HVEZRV0v/TC"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 11:54:36"], ["last_sign_in_at", "2017-11-14 11:54:36"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Phuc"], ["last_name", "Nguyen"], ["address", "1363 Mckie St."], ["city", "Austin"], ["state_id", 44], ["zip", 78752], ["created_at", "2018-06-08 23:16:34.757434"], ["updated_at", "2018-06-08 23:16:34.757434"], ["phone", 8322122942]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.3ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ramirolvrs51@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "ramirolvrs51@gmail.com"], ["encrypted_password", "$2a$11$3GBgTJCOwzbGXNN9yLOoYuL8xsILsBjvsPuOibbPHbDb1tI6gckFS"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 11:55:50"], ["last_sign_in_at", "2017-11-14 11:55:50"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Ramiro"], ["last_name", "Olivares"], ["address", "1191 Boxer St."], ["city", "Houston"], ["state_id", 44], ["zip", 77247], ["created_at", "2018-06-08 23:16:34.891907"], ["updated_at", "2018-06-08 23:16:34.891907"], ["phone", 8322005372]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.4ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ltorres@sbcglobal.net"], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "ltorres@sbcglobal.net"], ["encrypted_password", "$2a$11$I4zFB7DMsd.K4hfekGVgN.w1WuP6wXcf1lMM2cEuFkJQnXGoQ6v1S"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 11:57:10"], ["last_sign_in_at", "2017-11-14 11:57:10"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Leslie"], ["last_name", "Torres"], ["address", "7312 Cardinal Rd."], ["city", "Houston"], ["state_id", 44], ["zip", 77089], ["created_at", "2018-06-08 23:16:35.026159"], ["updated_at", "2018-06-08 23:16:35.026159"], ["phone", 4021825210]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.2ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "tuantonyd@tester.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "tuantonyd@tester.com"], ["encrypted_password", "$2a$11$4Ur3tGQxPdaXPHYz8YGXxup1jSwr9.hipiSdzWIiv2qQNRwLq0Bym"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 12:00:05"], ["last_sign_in_at", "2017-11-14 12:00:05"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Tuan"], ["last_name", "Do"], ["address", "5135 Pease St."], ["city", "HOUSTON"], ["state_id", 44], ["zip", 77023], ["created_at", "2018-06-08 23:16:35.162264"], ["updated_at", "2018-06-08 23:16:35.162264"], ["phone", 8322024827]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.2ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "chummings@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "chummings@gmail.com"], ["encrypted_password", "$2a$11$4ZPPkrvPGgD4/33caDB50uBk/2R1tCnlOHd3vBoH12.JBFF4AM0h."], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 12:01:45"], ["last_sign_in_at", "2017-11-14 12:01:45"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Chris"], ["last_name", "Hummings"], ["address", "6234 41 St."], ["city", "HOUSTON"], ["state_id", 44], ["zip", 77044], ["created_at", "2018-06-08 23:16:35.291620"], ["updated_at", "2018-06-08 23:16:35.291620"], ["phone", 2813552554]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.2ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "lbrock@aol.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "lbrock@aol.com"], ["encrypted_password", "$2a$11$d/qipjbXVV2nVosSiAqVoesUxqK15M8HHLdYEfrHxK2hEN7L/Zt/6"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 12:04:17"], ["last_sign_in_at", "2017-11-14 12:04:17"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Brock"], ["last_name", "Love"], ["address", "7212 Jean St."], ["city", "Dallas"], ["state_id", 44], ["zip", 85815], ["created_at", "2018-06-08 23:16:35.422415"], ["updated_at", "2018-06-08 23:16:35.422415"], ["phone", 4023174023]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.3ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "drobbins@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "drobbins@gmail.com"], ["encrypted_password", "$2a$11$z8s.gnrBb.g/s5Xra3XjZO87DIKDbtaY9ewqHt2M55slajyYQj2aK"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 12:06:06"], ["last_sign_in_at", "2017-11-14 12:06:06"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Derrick"], ["last_name", "Robbins"], ["address", "692 Park Place St."], ["city", "Houston"], ["state_id", 44], ["zip", 77294], ["created_at", "2018-06-08 23:16:35.552561"], ["updated_at", "2018-06-08 23:16:35.552561"], ["phone", 8328214712]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.2ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "rickybobbygar@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "rickybobbygar@gmail.com"], ["encrypted_password", "$2a$11$ZLof9wqaIM5GbEzsIioD1OmeihPJjPhxvN6YMlr6WPyrh2PbWwrWm"], ["sign_in_count", 2], ["current_sign_in_at", "2017-11-14 12:09:46"], ["last_sign_in_at", "2017-11-14 12:09:30"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Ricky"], ["last_name", "Garcia"], ["address", "3324 McSlick Dr. "], ["city", "Austin"], ["state_id", 44], ["zip", 78756], ["created_at", "2018-06-08 23:16:35.682385"], ["updated_at", "2018-06-08 23:16:35.682385"], ["phone", 5124381351]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.2ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ksmithens@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone", "address_two") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["email", "ksmithens@gmail.com"], ["encrypted_password", "$2a$11$U2KdKvYF17uXsKDFOcEXGu9ryMbYmzTEk1pvJKKDhs3RV3lE/tTRC"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 22:35:51"], ["last_sign_in_at", "2017-11-14 22:35:51"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Kathy"], ["last_name", "Smith"], ["address", "8492 Milby St."], ["city", "New Orleans"], ["state_id", 19], ["zip", 77114], ["created_at", "2018-06-08 23:16:35.811984"], ["updated_at", "2018-06-08 23:16:35.811984"], ["phone", 5042398472], ["address_two", ""]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.3ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "rdupre@lsu.edu"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "rdupre@lsu.edu"], ["encrypted_password", "$2a$11$.J24yTJxW5PbR8TX/yxDPuF3sOBMF7iqCslXdJgCRGFaPir8FX9SO"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 22:44:25"], ["last_sign_in_at", "2017-11-14 22:44:25"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Randy"], ["last_name", "Dupre"], ["address", "1581 Milan St."], ["city", "Lake Charles"], ["state_id", 19], ["zip", 77003], ["created_at", "2018-06-08 23:16:35.941566"], ["updated_at", "2018-06-08 23:16:35.941566"], ["phone", 5022452578]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.4ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "cbriones@aol.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "cbriones@aol.com"], ["encrypted_password", "$2a$11$h6KUgePbC1aWQr/Pkz3tVuJ/43u40BCoKyaDZeMULVRZnGmlSU3d2"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 23:40:25"], ["last_sign_in_at", "2017-11-14 23:40:25"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Carlos"], ["last_name", "Briones"], ["address", "5238"], ["city", "Lafayette"], ["state_id", 19], ["zip", 77027], ["created_at", "2018-06-08 23:16:36.080876"], ["updated_at", "2018-06-08 23:16:36.080876"], ["phone", 2258274936]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.3ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ghaywall@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "ghaywall@gmail.com"], ["encrypted_password", "$2a$11$IbOr686MDVzLlFVCCecKyuAXfcU8l0dFDUPcZyucUrJzaOZKUEcHC"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 23:43:07"], ["last_sign_in_at", "2017-11-14 23:43:07"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Gordan"], ["last_name", "Haywall"], ["address", "8261 Load Rd."], ["city", "Houston"], ["state_id", 19], ["zip", 77014], ["created_at", "2018-06-08 23:16:36.215050"], ["updated_at", "2018-06-08 23:16:36.215050"], ["phone", 9852175128]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.3ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "wex.bryant@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "wex.bryant@gmail.com"], ["encrypted_password", "$2a$11$1vDbOVgkzaxdczUIkPwTweTglbuz88EsYu4qxIcyVP6oG6kghH7/e"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 23:46:57"], ["last_sign_in_at", "2017-11-14 23:46:57"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Wex"], ["last_name", "Bryant"], ["address", "3461"], ["city", "Sante Fe"], ["state_id", 32], ["zip", 87124], ["created_at", "2018-06-08 23:16:36.353586"], ["updated_at", "2018-06-08 23:16:36.353586"], ["phone", 5052128513]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.4ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "k.livingz@yahoo.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "k.livingz@yahoo.com"], ["encrypted_password", "$2a$11$80olviXXO.VZpyOMiQd2o.MCsd2c3UTv6CMAOIKdw85kj/krYIQW2"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 23:48:52"], ["last_sign_in_at", "2017-11-14 23:48:52"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Kyrie"], ["last_name", "Livington"], ["address", "18371 South St."], ["city", "Albuquerque"], ["state_id", 32], ["zip", 87213], ["created_at", "2018-06-08 23:16:36.491835"], ["updated_at", "2018-06-08 23:16:36.491835"], ["phone", 5752183416]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.3ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "lllant@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone", "address_two") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING "id"[0m  [["email", "lllant@gmail.com"], ["encrypted_password", "$2a$11$NA8s/xdNQ0E0cYu4czun3OZa8jFkH7O4VUPUMEVIxVpYnMtl9beIK"], ["sign_in_count", 2], ["current_sign_in_at", "2017-11-14 23:56:17"], ["last_sign_in_at", "2017-11-14 23:55:25"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Lonzo"], ["last_name", "Antetokounmpo"], ["address", "1847 Firebrick Rd."], ["city", "Taos"], ["state_id", 32], ["zip", 87212], ["created_at", "2018-06-08 23:16:36.672830"], ["updated_at", "2018-06-08 23:16:36.672830"], ["phone", 5752918521], ["address_two", ""]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.2ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "bwindslow@yahoo.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "bwindslow@yahoo.com"], ["encrypted_password", "$2a$11$hVa.ukz.1egQ6ddaRA6Oa.FCdQZmkWtSqRNM0UeqH9I3xpTFPZ986"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-14 23:59:38"], ["last_sign_in_at", "2017-11-14 23:59:38"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Bart"], ["last_name", "Winslow"], ["address", "8912"], ["city", "Los Angeles"], ["state_id", 5], ["zip", 90201], ["created_at", "2018-06-08 23:16:36.801798"], ["updated_at", "2018-06-08 23:16:36.801798"], ["phone", 2138481481]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mState Load (0.2ms)[0m  [1m[34mSELECT  "states".* FROM "states" WHERE "states"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "c.parker@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "sign_in_count", "current_sign_in_at", "last_sign_in_at", "current_sign_in_ip", "last_sign_in_ip", "first_name", "last_name", "address", "city", "state_id", "zip", "created_at", "updated_at", "phone") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16) RETURNING "id"[0m  [["email", "c.parker@gmail.com"], ["encrypted_password", "$2a$11$B3QNzRVPr/RR2nb7vtm8cOCbZgm12lA.eF96nJXSs2dtCypMi0PTy"], ["sign_in_count", 1], ["current_sign_in_at", "2017-11-15 00:02:23"], ["last_sign_in_at", "2017-11-15 00:02:23"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["first_name", "Candice"], ["last_name", "Parker"], ["address", "1830 Leeland St."], ["city", "Brooklyn"], ["state_id", 33], ["zip", 10009], ["created_at", "2018-06-08 23:16:36.931600"], ["updated_at", "2018-06-08 23:16:36.931600"], ["phone", 2124371921]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2018-06-08 18:16:43 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.haml within layouts/application
+  Rendered welcome/index.haml within layouts/application (10358.4ms)
+  Rendered layouts/partials/_header.haml (11.6ms)
+  Rendered layouts/partials/_footer.haml (1.9ms)
+Completed 200 OK in 10620ms (Views: 10603.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2018-06-08 18:17:06 -0500
+Processing by WelcomeController#about as HTML
+  Rendering welcome/about.haml within layouts/application
+  Rendered welcome/about.haml within layouts/application (11.5ms)
+  Rendered layouts/partials/_header.haml (7.3ms)
+  Rendered layouts/partials/_footer.haml (2.1ms)
+Completed 200 OK in 166ms (Views: 161.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2018-06-08 18:17:11 -0500
+Processing by ItemsController#index as HTML
+  Rendering items/index.haml within layouts/application
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."available" = $1[0m  [["available", "true"]]
+  [1m[36mItemImage Load (1.4ms)[0m  [1m[34mSELECT "item_images".* FROM "item_images" WHERE "item_images"."item_id" IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)[0m
+  Rendered items/index.haml within layouts/application (81.3ms)
+  Rendered layouts/partials/_header.haml (6.9ms)
+  Rendered layouts/partials/_footer.haml (2.9ms)
+Completed 200 OK in 235ms (Views: 201.3ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2018-06-08 18:17:14 -0500
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (1.2ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering items/show.haml within layouts/application
+  [1m[36mItemImage Exists (2.5ms)[0m  [1m[34mSELECT  1 AS one FROM "item_images" WHERE "item_images"."item_id" = $1 LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  [1m[36mItemImage Load (1.6ms)[0m  [1m[34mSELECT  "item_images".* FROM "item_images" WHERE "item_images"."item_id" = $1 ORDER BY "item_images"."id" ASC LIMIT $2[0m  [["item_id", 2], ["LIMIT", 1]]
+  [1m[36mItemImage Load (0.4ms)[0m  [1m[34mSELECT "item_images".* FROM "item_images" WHERE "item_images"."item_id" = $1[0m  [["item_id", 2]]
+  Rendered items/show.haml within layouts/application (25.7ms)
+  Rendered layouts/partials/_header.haml (5.9ms)
+  Rendered layouts/partials/_footer.haml (2.4ms)
+Completed 200 OK in 152ms (Views: 135.5ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/contact_forms/new" for 127.0.0.1 at 2018-06-08 18:17:18 -0500
+Processing by ContactFormsController#new as HTML
+  Rendering contact_forms/new.haml within layouts/application
+  Rendered contact_forms/new.haml within layouts/application (18.3ms)
+  Rendered layouts/partials/_header.haml (7.7ms)
+  Rendered layouts/partials/_footer.haml (2.1ms)
+Completed 200 OK in 147ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-06-08 18:17:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.haml within layouts/application
+  Rendered welcome/index.haml within layouts/application (14.3ms)
+  Rendered layouts/partials/_header.haml (30.4ms)
+  Rendered layouts/partials/_footer.haml (1.5ms)
+Completed 200 OK in 195ms (Views: 190.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2018-06-08 18:17:20 -0500
+Processing by Devise::SessionsController#new as HTML
+Permitted parameters:
+  Rendering users/sessions/new.haml within layouts/application
+  Rendered users/shared/_links.haml (8.8ms)
+  Rendered users/sessions/new.haml within layouts/application (23.6ms)
+  Rendered layouts/partials/_header.haml (6.3ms)
+  Rendered layouts/partials/_footer.haml (1.5ms)
+Completed 200 OK in 166ms (Views: 127.2ms | ActiveRecord: 6.9ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-06-08 18:17:27 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PnM1E1IfC93DLo0Geld8D9keCVvzZ4lzwgtcK32HpYV516l5gKxouIp0eS/QFkxt4GmmyVbcMzA89iC777xn9A==", "user"=>{"email"=>"test1@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"false"}}
+Permitted parameters:
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "test1@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 6ms (ActiveRecord: 1.2ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PnM1E1IfC93DLo0Geld8D9keCVvzZ4lzwgtcK32HpYV516l5gKxouIp0eS/QFkxt4GmmyVbcMzA89iC777xn9A==", "user"=>{"email"=>"test1@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"false"}}
+Permitted parameters:
+  Rendering users/sessions/new.haml within layouts/application
+  Rendered users/shared/_links.haml (2.5ms)
+  Rendered users/sessions/new.haml within layouts/application (14.1ms)
+  Rendered layouts/partials/_header.haml (6.4ms)
+  Rendered layouts/partials/_footer.haml (1.3ms)
+Completed 200 OK in 250ms (Views: 123.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-06-08 18:17:34 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VEJq6pB0FG4FFjTzUb2LWPgAdSDizRsvS6S46ZBSpdQT5vaAQsd3C0xMwNr7/Ls6wXfaskd2oWy1WcR5AmlnpQ==", "user"=>{"email"=>"ethanorcutt@outlook.com", "password"=>"[FILTERED]", "remember_me"=>"false"}}
+Permitted parameters:
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "ethanorcutt@outlook.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.9ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VEJq6pB0FG4FFjTzUb2LWPgAdSDizRsvS6S46ZBSpdQT5vaAQsd3C0xMwNr7/Ls6wXfaskd2oWy1WcR5AmlnpQ==", "user"=>{"email"=>"ethanorcutt@outlook.com", "password"=>"[FILTERED]", "remember_me"=>"false"}}
+Permitted parameters:
+  Rendering users/sessions/new.haml within layouts/application
+  Rendered users/shared/_links.haml (3.5ms)
+  Rendered users/sessions/new.haml within layouts/application (18.9ms)
+  Rendered layouts/partials/_header.haml (8.6ms)
+  Rendered layouts/partials/_footer.haml (1.3ms)
+Completed 200 OK in 263ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-06-08 18:18:17 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xTPuAaf4es2U5KBliHm055EE0gwzDUT2VPCOU5EBWHeCl3JrdUsZqN2+VEwiOISFqHN9npa2/rWqDfLDAzqaBg==", "user"=>{"email"=>"admin@test.com", "password"=>"[FILTERED]", "remember_me"=>"false"}}
+Permitted parameters:
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "admin@test.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 166ms (ActiveRecord: 2.5ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xTPuAaf4es2U5KBliHm055EE0gwzDUT2VPCOU5EBWHeCl3JrdUsZqN2+VEwiOISFqHN9npa2/rWqDfLDAzqaBg==", "user"=>{"email"=>"admin@test.com", "password"=>"[FILTERED]", "remember_me"=>"false"}}
+Permitted parameters:
+  Rendering users/sessions/new.haml within layouts/application
+  Rendered users/shared/_links.haml (7.0ms)
+  Rendered users/sessions/new.haml within layouts/application (53.6ms)
+  Rendered layouts/partials/_header.haml (15.0ms)
+  Rendered layouts/partials/_footer.haml (3.5ms)
+Completed 200 OK in 362ms (Views: 226.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2018-06-08 18:18:21 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6pZThq4HZKUPzo7DnUjSGXi7q852300xcBpXfbz0i6qtMs/sfLQHwEaUeuo3CeJ7QcwEXNNk93KO5yvtLs9J2w==", "user"=>{"email"=>"admin@test.com", "password"=>"[FILTERED]", "remember_me"=>"false"}}
+Permitted parameters:
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "admin@test.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "current_sign_in_ip" = $3, "last_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["current_sign_in_at", "2018-06-08 23:18:21.340304"], ["last_sign_in_at", "2018-06-08 23:18:21.340304"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2018-06-08 23:18:21.343279"], ["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 176ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-08 18:18:21 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.haml within layouts/application
+  Rendered welcome/index.haml within layouts/application (16.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered layouts/partials/_header.haml (10.1ms)
+  Rendered layouts/partials/_footer.haml (2.9ms)
+Completed 200 OK in 157ms (Views: 152.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/settings/editaccount" for 127.0.0.1 at 2018-06-08 18:18:24 -0500
+Processing by UsersController#edit as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/edit.haml within layouts/application
+  [1m[36mState Load (2.1ms)[0m  [1m[34mSELECT "states".* FROM "states"[0m
+  Rendered users/edit.haml within layouts/application (60.5ms)
+  Rendered layouts/partials/_header.haml (10.7ms)
+  Rendered layouts/partials/_footer.haml (1.6ms)
+Completed 200 OK in 198ms (Views: 173.1ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2018-06-08 18:18:27 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.haml within layouts/admin
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders" WHERE "orders"."order_status_id" = 1[0m
+  [1m[36mOrder Load (1.3ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."order_status_id" = 1 ORDER BY "orders"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders" WHERE "orders"."order_status_id" = 2[0m
+  [1m[36mOrder Load (0.8ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."order_status_id" = 2 ORDER BY "orders"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  [1m[36mOrder Load (0.6ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."order_status_id" = 3 ORDER BY "orders"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  Rendered admin/index.haml within layouts/admin (30.3ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (6.4ms)
+  Rendered layouts/partials/_footer.haml (1.6ms)
+Completed 200 OK in 150ms (Views: 131.7ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2018-06-08 18:18:29 -0500
+Processing by AdminController#items as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/items.haml within layouts/admin
+  [1m[36mItem Load (0.8ms)[0m  [1m[34mSELECT "items".* FROM "items" ORDER BY "items"."available" DESC, "items"."name" ASC[0m
+  Rendered admin/items.haml within layouts/admin (14.1ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (5.9ms)
+  Rendered layouts/partials/_footer.haml (1.5ms)
+Completed 200 OK in 124ms (Views: 116.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2018-06-08 18:18:31 -0500
+Processing by AdminController#users as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/users.haml within layouts/admin
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 5)) ORDER BY "users"."last_name" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ("users"."id" NOT IN (1, 5))[0m
+  Rendered admin/users.haml within layouts/admin (15.5ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (5.9ms)
+  Rendered layouts/partials/_footer.haml (1.3ms)
+Completed 200 OK in 156ms (Views: 147.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/admin/reports" for 127.0.0.1 at 2018-06-08 18:18:32 -0500
+Processing by AdminController#reports as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "state_id", "states"."state_name" FROM "states" INNER JOIN "orders" ON "orders"."state_id" = "states"."id" ORDER BY "states"."state_name" ASC[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT SUM("orders"."total") AS sum_total, "orders"."user_id" AS orders_user_id FROM "orders" INNER JOIN "users" ON "users"."id" = "orders"."user_id" GROUP BY "orders"."user_id"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE 1=0[0m
+[]
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT SUM("orders"."total") AS sum_total, (DATE_TRUNC('month', (created_at::timestamptz - INTERVAL '0 second') AT TIME ZONE 'America/Chicago') + INTERVAL '0 second') AT TIME ZONE 'America/Chicago' AS date_trunc_month_created_at_timestamptz_interval_0_second_at_ti FROM "orders" WHERE (created_at IS NOT NULL) GROUP BY (DATE_TRUNC('month', (created_at::timestamptz - INTERVAL '0 second') AT TIME ZONE 'America/Chicago') + INTERVAL '0 second') AT TIME ZONE 'America/Chicago'[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  Rendering admin/reports.haml within layouts/admin
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT SUM("orders"."total") AS sum_total, (DATE_TRUNC('day', (created_at::timestamptz - INTERVAL '0 second') AT TIME ZONE 'America/Chicago') + INTERVAL '0 second') AT TIME ZONE 'America/Chicago' AS date_trunc_day_created_at_timestamptz_interval_0_second_at_time FROM "orders" WHERE (created_at >= '2018-06-04 05:00:00' AND created_at <= '2018-06-11 04:59:59.999999') GROUP BY (DATE_TRUNC('day', (created_at::timestamptz - INTERVAL '0 second') AT TIME ZONE 'America/Chicago') + INTERVAL '0 second') AT TIME ZONE 'America/Chicago'[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT SUM("orders"."total") AS sum_total, (DATE_TRUNC('week', (created_at::timestamptz - INTERVAL '6 day' - INTERVAL '0 second') AT TIME ZONE 'America/Chicago') + INTERVAL '6 day' + INTERVAL '0 second') AT TIME ZONE 'America/Chicago' AS date_trunc_week_created_at_timestamptz_interval_6_day_interval_ FROM "orders" WHERE (created_at >= '2018-06-01 05:00:00' AND created_at <= '2018-06-08 23:18:32.853152') GROUP BY (DATE_TRUNC('week', (created_at::timestamptz - INTERVAL '6 day' - INTERVAL '0 second') AT TIME ZONE 'America/Chicago') + INTERVAL '6 day' + INTERVAL '0 second') AT TIME ZONE 'America/Chicago'[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT SUM("orders"."total") AS sum_total, (DATE_TRUNC('month', (created_at::timestamptz - INTERVAL '0 second') AT TIME ZONE 'America/Chicago') + INTERVAL '0 second') AT TIME ZONE 'America/Chicago' AS date_trunc_month_created_at_timestamptz_interval_0_second_at_ti FROM "orders" WHERE (created_at >= '2018-01-01 06:00:00' AND created_at <= '2018-06-08 23:18:32.855930') GROUP BY (DATE_TRUNC('month', (created_at::timestamptz - INTERVAL '0 second') AT TIME ZONE 'America/Chicago') + INTERVAL '0 second') AT TIME ZONE 'America/Chicago'[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT SUM("order_lines"."qty") AS sum_qty, "name" AS name FROM "order_lines" INNER JOIN "items" ON "items"."id" = "order_lines"."item_id" GROUP BY "name"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT SUM("order_lines"."qty") AS sum_qty, "name" AS name FROM "order_lines" INNER JOIN "items" ON "items"."id" = "order_lines"."item_id" GROUP BY "name"[0m
+  [1m[36mState Load (1.7ms)[0m  [1m[34mSELECT states.state_name AS name, count(users.id) AS count FROM "states" INNER JOIN "users" ON "users"."state_id" = "states"."id" GROUP BY states.id ORDER BY count DESC[0m
+  [1m[36mCACHE State Load (0.0ms)[0m  [1m[34mSELECT states.state_name AS name, count(users.id) AS count FROM "states" INNER JOIN "users" ON "users"."state_id" = "states"."id" GROUP BY states.id ORDER BY count DESC[0m
+  Rendered admin/reports.haml within layouts/admin (38.6ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (4.4ms)
+  Rendered layouts/partials/_footer.haml (1.3ms)
+Completed 200 OK in 161ms (Views: 116.4ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2018-06-08 18:18:52 -0500
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/index.haml within layouts/admin
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders" WHERE "orders"."order_status_id" = 1[0m
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."order_status_id" = 1 ORDER BY "orders"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders" WHERE "orders"."order_status_id" = 2[0m
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."order_status_id" = 2 ORDER BY "orders"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."order_status_id" = 3 ORDER BY "orders"."created_at" DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  Rendered admin/index.haml within layouts/admin (17.3ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (4.8ms)
+  Rendered layouts/partials/_footer.haml (1.5ms)
+Completed 200 OK in 115ms (Views: 106.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2018-06-08 18:18:54 -0500
+Processing by AdminController#users as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/users.haml within layouts/admin
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 5)) ORDER BY "users"."last_name" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ("users"."id" NOT IN (1, 5))[0m
+  Rendered admin/users.haml within layouts/admin (8.8ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (4.6ms)
+  Rendered layouts/partials/_footer.haml (1.3ms)
+Completed 200 OK in 103ms (Views: 93.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/admin/users?page=2" for 127.0.0.1 at 2018-06-08 18:19:04 -0500
+Processing by AdminController#users as HTML
+  Parameters: {"page"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/users.haml within layouts/admin
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 5)) ORDER BY "users"."last_name" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 15]]
+  Rendered admin/users.haml within layouts/admin (10.1ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (5.6ms)
+  Rendered layouts/partials/_footer.haml (1.3ms)
+Completed 200 OK in 105ms (Views: 98.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/users?page=1" for 127.0.0.1 at 2018-06-08 18:19:10 -0500
+Processing by AdminController#users as HTML
+  Parameters: {"page"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/users.haml within layouts/admin
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 5)) ORDER BY "users"."last_name" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 15], ["OFFSET", 0]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" WHERE ("users"."id" NOT IN (1, 5))[0m
+  Rendered admin/users.haml within layouts/admin (13.3ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (4.2ms)
+  Rendered layouts/partials/_footer.haml (1.7ms)
+Completed 200 OK in 104ms (Views: 93.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2018-06-08 18:19:12 -0500
+Processing by AdminController#items as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/items.haml within layouts/admin
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT "items".* FROM "items" ORDER BY "items"."available" DESC, "items"."name" ASC[0m
+  Rendered admin/items.haml within layouts/admin (10.2ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (4.5ms)
+  Rendered layouts/partials/_footer.haml (1.4ms)
+Completed 200 OK in 119ms (Views: 113.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/items/new" for 127.0.0.1 at 2018-06-08 18:19:16 -0500
+Processing by ItemsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering items/new.haml within layouts/admin
+  Rendered items/new.haml within layouts/admin (20.9ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (8.4ms)
+  Rendered layouts/partials/_footer.haml (1.5ms)
+Completed 200 OK in 128ms (Views: 120.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/items" for 127.0.0.1 at 2018-06-08 18:19:18 -0500
+Processing by AdminController#items as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering admin/items.haml within layouts/admin
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT "items".* FROM "items" ORDER BY "items"."available" DESC, "items"."name" ASC[0m
+  Rendered admin/items.haml within layouts/admin (14.2ms)
+  Rendered layouts/partials/_admin-side-nav-bar.haml (6.6ms)
+  Rendered layouts/partials/_footer.haml (1.4ms)
+Completed 200 OK in 132ms (Views: 122.1ms | ActiveRecord: 1.4ms)
+
+

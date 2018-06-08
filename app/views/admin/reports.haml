@@ -1,0 +1,77 @@
+
+.container
+  .row
+    .spacer
+    .col-md-4
+      .card
+        .card-header
+          %h3 This Week's Sales:
+        .table-card
+          =column_chart ReportingHelper.orders_this_week, library: {vAxis: {title: 'Amount in Dollars' }, hAxis: {title: 'Day of the Week'}}
+    .col-md-4
+      .card
+        .card-header
+          %h3 This Month's Sales:
+        .table-card
+          =column_chart ReportingHelper.orders_this_month, library: {vAxis: {title: 'Amount in Dollars' }, hAxis: {title: 'Week of the Month'}}
+    .col-md-4
+      .card
+        .card-header
+          %h3 This Year's Sales:
+        .table-card
+          =line_chart ReportingHelper.orders_this_year, library: {vAxis: {title: 'Amount in Dollars' }, hAxis: {title: 'Month of the Year'}}
+  .row
+    .spacer
+    .col-md-6
+      .card
+        .card-header
+          %h3 Most Sold Products
+        .table-card
+          %table.table.table-bordered.table-striped
+            %thead
+              %tr
+                %th Product
+                %th Quantity
+            - ReportingHelper.item_popularity.each do |report_line|
+              %tr
+                %td= report_line[0]
+                %td= report_line[1]
+            = pie_chart ReportingHelper.item_popularity
+    .col-md-6
+      .card
+        .card-header
+          %h3 Total Sales by Customer
+        .table-card
+          %table.table.table-bordered.table-striped
+            %thead
+              %tr
+                %th Customer
+                %th Total
+            - @user_order_report.each do |user_report|
+              %tr
+                %td= user_report[0].full_name
+                %td
+                  = number_to_currency user_report[1]
+  .row
+    .spacer
+    .col-md-12
+      .card
+        .card-header
+          %h3 Users Per State
+          You have
+          %strong= @user_count
+          Total Users
+
+        .table-card
+          %table.table.table-bordered.table-striped
+            %thead
+              %tr
+                %th State
+                %th Number of Users
+            - ReportingHelper.states_with_users.each do | state_name, user_count |
+              %tr
+                %td= state_name
+                %td= user_count
+            = pie_chart ReportingHelper.states_with_users
+
+
